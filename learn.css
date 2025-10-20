@@ -1,0 +1,349 @@
+body{
+    background-color: black;
+}
+.page-container{
+    background-color: black;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+   display: flex;
+   color: white;
+   border: 2px solid rgb(0, 0, 0);
+   justify-content: space-around;
+   width: 100%;
+}
+.highlight{
+    color: pink;
+}
+.logo{
+    font-size: 25px;
+
+}
+.content{
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    width: 320px;
+    justify-self: center;
+}
+ 
+.stukje{
+    display: flex;
+    justify-content: center;
+}
+ 
+.plaatje{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  justify-self: center;
+  width: 800px;
+  height: 400px;
+}
+.container1 {
+  margin: 0;
+  padding: 0;
+  background-color: #0f1117;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ 
+.section {
+  text-align: center;
+  border: rgb(0, 0, 0) 2px solid;
+  padding: 30px;
+}
+ 
+.heading {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: -60px;
+}
+ 
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 13px;
+  align-items: center;
+  width: 650px;
+  justify-self: center;
+}
+ 
+.tag {
+  padding: 16px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  background-color: #1d1f29;
+}
+ 
+ 
+.tag.pink {
+  background-color: #182632;
+  color: #FFB4D3;
+  
+}
+ 
+.tag.yellow {
+  background-color: #182632;
+  color: #FFC24C;
+}
+ 
+.tag.purple {
+  background-color: #182632;
+  color: #D387F7;
+}
+ 
+.tag.blue {
+  background-color: #182632;
+  color: #77E6FF;
+}
+ 
+.tag.teal {
+  background-color: #182632;
+  color: #23C9DE;
+}
+ 
+.tag.red {
+  background-color: #182632;
+  color: #FF9E9E;
+}
+ 
+.tag.dark {
+  background-color: #182632;
+  color: #707F8D;
+}
+.vakje{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 38px;
+    justify-self: center;
+}
+ 
+.block{
+  display: flex;
+  margin-top: 10px;
+  background-color: #FFB4D3;
+  width: 260px;
+  font-size: 15px;
+  border-radius: 18px;
+  justify-content: center;
+  height: 20px;
+  justify-self: center;
+  margin-bottom: 6px;
+}
+ 
+.textblock{
+  color: rgb(255, 255, 255);
+  width: 400px;
+  font-size: 22px;
+  flex-direction: column;
+  padding: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  height: 380px;
+  justify-self: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+ 
+.tweede{
+  color: #FFB4D3;
+}
+ 
+.workswith-icon{
+ 
+}
+ 
+.ethereum1{
+  width: 45px;
+  height: 45px;
+  border: white;
+}
+ 
+.workswith-title{
+  color: white;
+  justify-self: center;
+  margin-top: 50px;
+}
+ 
+.three-star1{
+  width: 2px;
+  height: 2px;
+  justify-content: flex-start;
+  font-size: 2px;
+}
+
+.logo-image{
+    display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  justify-self: center;
+  width: 800px;
+  height: 400px;
+}
+.workswith-icons {
+    border: white 2px solid;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 34px;
+    align-items: flex-end;
+    width: 750px;
+    justify-self: center;
+}
+ 
+ 
+.work1 {
+    color: white;
+    font-size: 20px;
+}
+.wark1{
+    background-color: #1d1f29;
+    border-radius: 12px;
+    height: 80px;
+    width: 80px;
+    border: rgb(150, 149, 149) 1px solid;
+}
+.logo-image1{
+    width: 50px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+ 
+ 
+.work2 {
+    color: white;
+    font-size: 20px;
+}
+.wark2{
+    background-color: #1d1f29;
+    border-radius: 12px;
+    height: 80px;
+    width: 80px;
+    border: rgb(150, 149, 149) 1px solid;
+}
+.logo-image2{
+    width: 50px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+ 
+ 
+.work3 {
+    color: white;
+    font-size: 20px;
+}
+.wark3{
+    background-color: #1d1f29;
+    border-radius: 12px;
+    height: 80px;
+    width: 80px;
+    border: rgb(150, 149, 149) 1px solid;
+}
+.logo-image3{
+    width: 50px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+ 
+ 
+.work4 {
+    color: white;
+    font-size: 20px;
+}
+.wark4{
+    background-color: #1d1f29;
+    border-radius: 12px;
+    height: 80px;
+    width: 80px;
+    border: rgb(150, 149, 149) 1px solid;
+}
+.logo-image4{
+    width: 50px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+ 
+ 
+.work5 {
+    color: white;
+    font-size: 20px;
+}
+.wark5{
+    background-color: #1d1f29;
+    border-radius: 12px;
+    height: 80px;
+    width: 80px;
+    border: rgb(150, 149, 149) 1px solid;
+}
+.logo-image5{
+    width: 50px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+ 
+ 
+.work6 {
+    color: white;
+    font-size: 20px;
+}
+.wark6{
+    background-color: #1d1f29;
+    border-radius: 12px;
+    height: 80px;
+    width: 80px;
+    border: rgb(150, 149, 149) 1px solid;
+}
+.icons{
+  height: 34px;
+  flex-direction: row;
+  display: flex;
+  align-self: center;
+  gap: 8px;
+
+}
+.footer{
+  background-color: #121E28;
+  margin-top: 80px;
+  align-content: space-around;
+  color: white;
+  display:flex; 
+  height: 80px;
+  justify-content: space-between;
+width: 100%;
+}
+.eind {
+  flex-direction: row;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  gap: 20px;
+} 
+.legal-1{
+  color: yellow;
+}
