@@ -1,44 +1,78 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
-.page-container{
-    background-color: black;
-    display: flex;
 
-    flex-direction: column;
-    align-items: center;
+.page-container {
+  background-color: black;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
 }
-.header{
-   display: flex;
-   color: white;
-   border: 2px solid rgb(0, 0, 0);
-   justify-content: space-around;
-   width: 100%;
+
+.header {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  width: 100%;
 }
-.highlight{
-    color: pink;
+
+.home {
+  color: white;
 }
-.logo{
-    font-size: 25px;
+
+.learn {
+  color: white;
+}
+
+.about {
+  color: white;
+}
+
+.contact {
+  color: white;
+}
+
+.highlight {
+  color: pink;
+}
+
+.navbar {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 25px;
 
 }
-.content{
-    color: white;
-    border: 2px solid rgb(0, 0, 0);
-    margin-top: 20px;
-    padding: 10px;
-    justify-content: center;
-    text-align: center;
-    width: 320px;
-    justify-self: center;
+
+.content {
+  color: white;
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 20px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  width: 320px;
+  justify-self: center;
 }
- 
-.stukje{
-    display: flex;
-    justify-content: center;
+
+.stukje {
+  display: flex;
+  justify-content: center;
 }
- 
-.plaatje{
+
+.get-started-button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #D387F7;
+}
+
+
+.plaatje {
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -46,6 +80,7 @@ body{
   width: 800px;
   height: 400px;
 }
+
 .container1 {
   margin: 0;
   padding: 0;
@@ -57,20 +92,20 @@ body{
   align-items: center;
   height: 100vh;
 }
- 
+
 .section {
   text-align: center;
   border: rgb(0, 0, 0) 2px solid;
   padding: 30px;
 }
- 
+
 .heading {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 0px;
   margin-top: -60px;
 }
- 
+
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -80,7 +115,7 @@ body{
   width: 650px;
   justify-self: center;
 }
- 
+
 .tag {
   padding: 16px 18px;
   border-radius: 999px;
@@ -89,56 +124,57 @@ body{
   color: rgb(0, 0, 0);
   background-color: #1d1f29;
 }
- 
- 
+
+
 .tag.pink {
   background-color: #182632;
   color: #FFB4D3;
-  
+
 }
- 
+
 .tag.yellow {
   background-color: #182632;
   color: #FFC24C;
 }
- 
+
 .tag.purple {
   background-color: #182632;
   color: #D387F7;
 }
- 
+
 .tag.blue {
   background-color: #182632;
   color: #77E6FF;
 }
- 
+
 .tag.teal {
   background-color: #182632;
   color: #23C9DE;
 }
- 
+
 .tag.red {
   background-color: #182632;
   color: #FF9E9E;
 }
- 
+
 .tag.dark {
   background-color: #182632;
   color: #707F8D;
 }
-.vakje{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-bottom: 0px;
-    color: white;
-    font-size: 38px;
-    justify-self: center;
+
+.vakje {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+  color: white;
+  font-size: 38px;
+  justify-self: center;
 }
- 
-.block{
+
+.block {
   display: flex;
   margin-top: 10px;
   background-color: #FFB4D3;
@@ -150,8 +186,8 @@ body{
   justify-self: center;
   margin-bottom: 6px;
 }
- 
-.textblock{
+
+.textblock {
   color: rgb(255, 255, 255);
   width: 400px;
   font-size: 22px;
@@ -164,162 +200,172 @@ body{
   margin-top: 40px;
   margin-bottom: 80px;
 }
- 
-.tweede{
+
+.tweede {
   color: #FFB4D3;
 }
- 
-.workswith-icon{
- 
-}
- 
-.ethereum1{
+
+
+.ethereum1 {
   width: 45px;
   height: 45px;
   border: white;
 }
- 
-.workswith-title{
+
+.workswith-title {
   color: white;
   justify-self: center;
   margin-top: 50px;
+  margin-bottom: -50px;
 }
- 
-.three-star1{
+
+.three-star1 {
   width: 2px;
   height: 2px;
   justify-content: flex-start;
   font-size: 2px;
 }
 
-.logo-image{
-    display: flex;
+.logo-image {
+  display: flex;
   justify-content: center;
   margin-top: 10px;
   justify-self: center;
   width: 800px;
   height: 400px;
 }
+
 .workswith-icons {
-    border: white 2px solid;
-    height: 130px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 34px;
-    align-items: flex-end;
-    width: 750px;
-    justify-self: center;
+  height: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 34px;
+  align-items: flex-end;
+  width: 750px;
+  justify-self: center;
 }
- 
- 
+
+
 .work1 {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
-.wark1{
-    background-color: #1d1f29;
-    border-radius: 12px;
-    height: 80px;
-    width: 80px;
-    border: rgb(150, 149, 149) 1px solid;
+
+.wark1 {
+  background-color: #1d1f29;
+  border-radius: 12px;
+  height: 80px;
+  width: 80px;
+  border: rgb(150, 149, 149) 1px solid;
 }
-.logo-image1{
-    width: 50px;
-    display: flex;
-    margin-top: 15px;
-    margin-left: 15px;
+
+.logo-image1 {
+  width: 50px;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
 }
- 
- 
+
+
 .work2 {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
-.wark2{
-    background-color: #1d1f29;
-    border-radius: 12px;
-    height: 80px;
-    width: 80px;
-    border: rgb(150, 149, 149) 1px solid;
+
+.wark2 {
+  background-color: #1d1f29;
+  border-radius: 12px;
+  height: 80px;
+  width: 80px;
+  border: rgb(150, 149, 149) 1px solid;
 }
-.logo-image2{
-    width: 50px;
-    display: flex;
-    margin-top: 15px;
-    margin-left: 15px;
+
+.logo-image2 {
+  width: 50px;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
 }
- 
- 
+
+
 .work3 {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
-.wark3{
-    background-color: #1d1f29;
-    border-radius: 12px;
-    height: 80px;
-    width: 80px;
-    border: rgb(150, 149, 149) 1px solid;
+
+.wark3 {
+  background-color: #1d1f29;
+  border-radius: 12px;
+  height: 80px;
+  width: 80px;
+  border: rgb(150, 149, 149) 1px solid;
 }
-.logo-image3{
-    width: 50px;
-    display: flex;
-    margin-top: 15px;
-    margin-left: 15px;
+
+.logo-image3 {
+  width: 50px;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
 }
- 
- 
+
+
 .work4 {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
-.wark4{
-    background-color: #1d1f29;
-    border-radius: 12px;
-    height: 80px;
-    width: 80px;
-    border: rgb(150, 149, 149) 1px solid;
+
+.wark4 {
+  background-color: #1d1f29;
+  border-radius: 12px;
+  height: 80px;
+  width: 80px;
+  border: rgb(150, 149, 149) 1px solid;
 }
-.logo-image4{
-    width: 50px;
-    display: flex;
-    margin-top: 15px;
-    margin-left: 15px;
+
+.logo-image4 {
+  width: 50px;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
 }
- 
- 
+
+
 .work5 {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
-.wark5{
-    background-color: #1d1f29;
-    border-radius: 12px;
-    height: 80px;
-    width: 80px;
-    border: rgb(150, 149, 149) 1px solid;
+
+.wark5 {
+  background-color: #1d1f29;
+  border-radius: 12px;
+  height: 80px;
+  width: 80px;
+  border: rgb(150, 149, 149) 1px solid;
 }
-.logo-image5{
-    width: 50px;
-    display: flex;
-    margin-top: 15px;
-    margin-left: 15px;
+
+.logo-image5 {
+  width: 50px;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
 }
- 
- 
+
+
 .work6 {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
-.wark6{
-    background-color: #1d1f29;
-    border-radius: 12px;
-    height: 80px;
-    width: 80px;
-    border: rgb(150, 149, 149) 1px solid;
+
+.wark6 {
+  background-color: #1d1f29;
+  border-radius: 12px;
+  height: 80px;
+  width: 80px;
+  border: rgb(150, 149, 149) 1px solid;
 }
-.icons{
+
+.icons {
   height: 34px;
   flex-direction: row;
   display: flex;
@@ -327,23 +373,36 @@ body{
   gap: 8px;
 
 }
-.footer{
+
+.footer {
   background-color: #121E28;
   margin-top: 80px;
   align-content: space-around;
   color: white;
-  display:flex; 
+  display: flex;
   height: 80px;
   justify-content: space-between;
-width: 100%;
+  width: 100%;
 }
+
 .eind {
   flex-direction: row;
   display: flex;
   align-self: center;
   justify-content: space-between;
   gap: 20px;
-} 
-.legal-1{
+}
+
+.legal-1 {
   color: yellow;
+}
+
+.sparkles2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2 {
+  width: 600px;
+  justify-self: center;
 }
